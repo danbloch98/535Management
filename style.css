@@ -334,7 +334,7 @@ input[type=checkbox]:checked + label {
     margin: 0 auto;
     object-fit: cover;
     object-position: center;
-    max-width: 100%;
+
     
 }
 
