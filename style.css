@@ -140,11 +140,11 @@ ul li a{
 
 .spot iframe {
     height: 325px;
+   min-width: 300px;
    max-width: 300px;
-   width: 100% !important;
     margin: 0 auto;
     text-align: center;
-    position: relative;
+    
   
 }
   /*End Artists Page*/
