@@ -7,7 +7,7 @@ body {
 }
 /*Home Page*/
 .homePage td{
-    padding: 20px;
+    padding-bottom: 30px;
     font-weight: bold;
     font-size: 25px;
     text-align: center;
