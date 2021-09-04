@@ -78,7 +78,7 @@ ul li a{
 
 
 /*Clients*/
-@media (min-width: 1250px) {
+@media (min-width: 1150px) {
     .clientsGrid {
         display: grid;
          grid-template-columns: repeat(5, 1fr);
