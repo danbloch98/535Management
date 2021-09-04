@@ -143,6 +143,7 @@ ul li a{
     width: 300px;
     margin: 0 auto;
     object-fit: cover;
+  min-width: 300px;
   
 }
   /*End Artists Page*/
