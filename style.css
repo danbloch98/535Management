@@ -5,8 +5,30 @@
 body {
     font-family: Proxima;
 }
+/*Home Page*/
+.homePage td{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    
+}
+.homePage a{
+    text-decoration: none;
+    color: black;
+}
+
+.homePage table{
+   margin: 0 auto;
+}
+
+.homePage{
+    margin-top: 250px;
+}
+/*End Home Page*/
 
 
+/*Header*/
 .logo img{
     height: auto;
     width: 300px;
@@ -15,39 +37,11 @@ body {
   margin-right: auto;
   margin-top: 50px;
  margin-bottom: 25px;
-
 }
 .logo{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    
-}
-
-.headt{
-    margin-bottom: 25px;
-    font-weight: bold;
-    font-size: 25px;
-}
-
-.headm td{
-    padding: 20px;
-    font-weight: bold;
-    font-size: 25px;
-    text-align: center;
-    
-}
-.headm a{
-    text-decoration: none;
-    color: black;
-}
-
-.headm table{
-   margin: 0 auto;
-}
-
-.headm{
-    margin-top: 250px;
 }
 li {
    color: rgba(255, 255, 255, 0);
@@ -67,9 +61,6 @@ ul{
  width: 100%;
   padding: 0;
   margin:auto;
- 
- 
-
 }
 ul li a{
     color: black;
@@ -78,75 +69,78 @@ ul li a{
 
 
 
-.dg{
-    text-align: center;
-    text-align: justify;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-}
-
-
-.dg2 {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.dg2 td{
-    padding: 300px;
-}
-
-.none td{
-    height: auto;
-    width: 900px;
-}
-.youtubedg{
-    width: auto;
-    height: auto;
-}
-.tb td{
-    padding: 30px;
-    vertical-align: top;
-   
-    display: inline-block;
-}
-.dg tr td{
-    padding: 50px;
-    vertical-align: top;
-    
-}
-
-.dgtext {
-    text-align: center;
-    float: left;
-    
-}
-.dgtext h2{
-    font-size: 30px;
-}
-.dgtext h3{
+.headerText{
+    margin-bottom: 25px;
+    font-weight: bold;
     font-size: 25px;
 }
-.dgtext h4{
-    font-size: 20px;
-}
+/*End Header*/
 
+
+/*Clients*/
+@media (min-width: 1750px) {
+    .clientsGrid {
+        display: grid;
+         grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: auto; }
+  }
+  .clientsGrid {
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    margin-top: 50px;
+    gap: 60px;
+  }
+  .clientsGrid img{
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .clientsGrid p {
+      font-size: 25px;
+      font-weight: bold;
+  }
+  .clientGridFix{
+    text-align: center;
+  }
+  /*End Clients Page*/
+
+  /*Artist Page*/
+  @media (min-width: 1000px) {
+    .artistPage {
+        display: grid;
+         grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;    
+}
+  }
+  .artistPage {
+      display: grid;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    text-align: center;
+    grid-gap: 1rem;
+    gap: 50px;
+  }
+.columnThree{
+    font-size: 20px;
+    text-align: center;
+}
+.artistPageImg img {
+    margin-right: auto;
+    margin-left: auto;
+    height: 325px;
+    width: 300px;
+  }
 .social-item img {
     height: 25px;
     width: 25px;
 }
 
-.break {
-    margin-left: auto;
-    margin-right: auto;
-}
-.break td{
-    padding: 30px;;
-}
-
 .spot iframe {
     height: 325px;
-    width: 300px;
+    width: 325px;
     width: auto;
     display:inline-block;
     margin: 0 auto;
@@ -154,221 +148,55 @@ ul li a{
     object-position: center;
     max-width: 100%;
 }
+  /*End Artists Page*/
 
-.main{
-    margin-left: auto;
-    margin-right: auto;
+
+  /*Contact Page*/
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body { background:rgb(255, 255, 255); }
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #000000;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
 }
 
-.margn{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-
-  /* ///// inputs /////*/
-
-input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
-    font-size: 0.75em;
-    color: rgb(14, 12, 12);
-    top: -5px;
-    -webkit-transition: all 0.225s ease;
-    transition: all 0.225s ease;
-}
-
-.styled-input {
-    float: left;
-    width: 293px;
-    margin: 1rem 0;
-    position: relative;
-    border-radius: 4px;
-}
-
-@media only screen and (max-width: 768px){
-    .styled-input {
-        width:100%;
-    }
-}
-
-.styled-input label {
-    color: rgb(0, 0, 0);
-    padding: 1.3rem 30px 1rem 30px;
-    position: absolute;
-    top: 10px;
-    left: 0;
-    -webkit-transition: all 0.25s ease;
-    transition: all 0.25s ease;
-    pointer-events: none;
-}
-
-.styled-input.wide { 
-    width: 650px;
-    max-width: 100%;
-}
-
-input,
-textarea {
-    padding: 30px;
-    border: 0;
-    width: 100%;
-    font-size: 1rem;
- 
-    border-style: solid;
-    border-width: 3px;
-    color: rgb(0, 0, 0);
-    
-}
-
-input:focus,
-textarea:focus { outline: 0; }
-
-input:focus ~ span,
-textarea:focus ~ span {
-    width: 100%;
-    -webkit-transition: all 0.075s ease;
-    transition: all 0.075s ease;
-}
+.feedback-input:focus { border:2px solid #CC4949; }
 
 textarea {
-    width: 100%;
-    min-height: 15em;
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
 }
 
-.input-container {
-    width: 650px;
-    max-width: 100%;
-    margin: 20px auto 25px auto;
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#ff0000;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
 }
-
-.submit-btn {
-  float: right;
-   
-    padding: 7px 35px;
-    border-radius: 60px;
-    background-color: #ff0000;
-    color: white;
-    font-size: 18px;
-    cursor: pointer;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.06),
-              0 2px 10px 0 rgba(0,0,0,0.07);
-    -webkit-transition: all 300ms ease;
-    transition: all 300ms ease;
-}
-
-.submit-btn:hover {
-    transform: translateY(1px);
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10),
-              0 1px 1px 0 rgba(0,0,0,0.09);
-}
-
-@media (max-width: 768px) {
-    .submit-btn {
-        width:100%;
-        float: none;
-        text-align:center;
-    }
-}
-
-input[type=checkbox] + label {
-  color: rgb(122, 80, 80);
-  font-style: italic;
-} 
-
-input[type=checkbox]:checked + label {
-  color: #f00;
-  font-style: normal;
-}
-/* End input*/
-
-/*Artist Page */
-.artists{
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    margin-bottom: 300px;
-    
-}
-
-.ttext td{
-    position:relative;
-    top:-110px
-}
-
-.artists td {
-    padding: 30px;
-    margin-bottom: 30%;
-    margin-top: 0%;
-}
-
-
-.artists td{
-    font-weight: bold;
-    font-size: 30px;
-}
-.artists img{
-    padding: 30px;
-}
-
-.fix img{
-    height: 300px;
-    width: 350px;
-}
-.fixDG img{
-    height: 300px;
-    width: 350px !important;
-}
-
-.text {
-    text-align: center;
-    left: 300px;
-    bottom: 220px;
-    position: relative;
-}
-
-.margin img{
-    height: 325px;
-    width: auto;
-    display:inline-block;
-    margin: 0 auto;
-    object-fit: cover;
-    object-position: center;
-    max-width: 100%
-
-    
-}
-
-.JC img{
-    width: 200px;
-    height: auto;
-    
-}
-.JC {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.lukeLogo img{
-    height: 200px;
-    width: auto;
-}
-.lukeLogo {
-    position:relative;
-    top: -280px
-}
-.margin2 img{
-    height: 325px;
-    width: auto;
-    display:inline-block;
-    margin: 0 auto;
-    object-fit: cover;
-    object-position: center;
-    max-width: 100%
-   
-    
-}
-.margin2{
-    position: relative;
-    top: -120px;
-}
+[type="submit"]:hover { background:#CC4949; }
+/*End Contact Page*/
