@@ -141,6 +141,7 @@ ul li a{
 .spot iframe {
     height: 325px;
     width: 300px;
+    width: 100% !important;
     margin: 0 auto;
     object-fit: cover;
  position: relative;
