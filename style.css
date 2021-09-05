@@ -21,10 +21,12 @@ body {
 .homePage{
    
  position: relative;
- top: 200px;
+ margin-top: 150px;
+ 
 }
 .top{
 margin: 0 auto;
+padding-top: 5%;
 }
 
 /*End Home Page*/
