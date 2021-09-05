@@ -20,12 +20,10 @@ body {
 
 .homePage table{
    margin: 0 auto;
+   position: relative;
+   padding-top: 250px;
 }
 
-.homePage{
-    margin-top: 10%;
-
-}
 /*End Home Page*/
 
 
