@@ -18,9 +18,13 @@ body {
     color: black;
 }
 
-.homePage table{
-   margin: 0 auto;
-   padding-top: 250px;
+.homePage{
+   
+ position: relative;
+ top: 200px;
+}
+.top{
+margin: 0 auto;
 }
 
 /*End Home Page*/
