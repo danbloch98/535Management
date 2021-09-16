@@ -86,12 +86,14 @@ ul li a{
     .clientsGrid {
         display: grid;
          grid-template-columns: repeat(3, 1fr);
+         border-style: solid;
         grid-template-rows: auto; }
   }
   .clientsGrid {
     margin-right: auto;
     margin-left: auto;
     display: grid;
+    border-style: solid;
     margin-top: 50px;
     gap: 60px;
   }
@@ -99,6 +101,7 @@ ul li a{
     height: 300px;
     width: 250px;
     margin-left: auto;
+    border-style: solid;
     margin-right: auto;
   }
   .clientsGrid p {
@@ -107,6 +110,7 @@ ul li a{
   }
   .clientGridFix{
     text-align: center;
+    border-style: solid;
   }
   /*End Clients Page*/
 
@@ -116,6 +120,7 @@ ul li a{
         display: grid;
          grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto;    
+        
         
 }
 .spot iframe {
@@ -140,7 +145,6 @@ ul li a{
     margin-left: auto;
     margin-top: 50px;
     text-align: center;
-    
     grid-gap: 1rem;
     
   }
