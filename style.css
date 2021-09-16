@@ -106,13 +106,7 @@ ul li a{
         grid-row: 2;
       }
   };
- 
 
-
-.clientsGrid div:nth-child(3n+0) {
-    background-color: white;
-    
-}
 
   .clientsGrid {
     margin-right: auto;
@@ -172,7 +166,7 @@ ul li a{
       display: grid;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 50px;
+    margin-top: 20px;
     text-align: center;
     grid-gap: 1rem;
     
