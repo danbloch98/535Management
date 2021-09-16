@@ -97,7 +97,7 @@ ul li a{
   }
   .clientsGrid img{
     height: 300px;
-    width: 300px;
+    width: 250px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -116,16 +116,33 @@ ul li a{
         display: grid;
          grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto;    
+        
+}
+.spot iframe {
+  height: 300px;
+  width: 350px;
+  margin: 0 auto;
+  text-align: center;
 }
   }
+   @media (max-width: 1000px){ /*Device width is <= 1000*/
+    .spot iframe {
+      height: 300px;
+      width: 250px;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+
   .artistPage {
       display: grid;
     margin-right: auto;
     margin-left: auto;
     margin-top: 50px;
     text-align: center;
+    
     grid-gap: 1rem;
-    gap: 50px;
+    
   }
 .columnThree{
     font-size: 20px;
@@ -135,22 +152,14 @@ ul li a{
     margin-right: auto;
     margin-left: auto;
     height: 300px;
-    width: 300px;
+    width: 250px;
   }
 .social-item img {
     height: 25px;
     width: 25px;
 }
 
-.spot iframe {
-    height: 300px;
-   min-width: 300px;
-   max-width: 300px;
-    margin: 0 auto;
-    text-align: center;
-    
-  
-}
+
   /*End Artists Page*/
 
 
