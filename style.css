@@ -93,7 +93,7 @@ ul li a{
     margin-left: auto;
     display: grid;
     margin-top: 50px;
-    gap: 60px;
+    gap: 0px;
   }
   .clientsGrid img{
     height: 300px;
@@ -107,8 +107,10 @@ ul li a{
   }
   .clientGridFix{
     text-align: center;
-  
+    border-style: solid;
+    padding-bottom: -5000px;
   }
+  
   /*End Clients Page*/
 
   /*Artist Page*/
