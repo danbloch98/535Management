@@ -88,7 +88,6 @@ ul li a{
          grid-template-rows: auto;
          grid-auto-flow: dense;
         }
-      
       .clientGridDamagedGoods{
         grid-column: 3;
         grid-row: 1;
@@ -106,14 +105,6 @@ ul li a{
         grid-row: 2;
       }
   };
- 
-
-
-.clientsGrid div:nth-child(3n+0) {
-    background-color: white;
-    
-}
-
   .clientsGrid {
     margin-right: auto;
     margin-left: auto;
